@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# Build / release
+build/
+dist/
+release/
+*.spec
+
+# Data files (do not commit scraped output)
+*.csv
+*.xlsx
+*.xls
+Test.zip
+
+# Debug / temp
+*.html
+failed_page.html
+page_content.html
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.lock
+.~lock.*
+
+# Large media folders
+Pic&Csv/
